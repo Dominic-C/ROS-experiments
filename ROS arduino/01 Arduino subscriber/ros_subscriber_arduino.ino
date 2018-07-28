@@ -1,9 +1,9 @@
 #include<ros.h>
-#include<geometry_msgs/Twist.h>
+#include<geometry_msgs/Twist.h> // include the message type
 
 ros::NodeHandle nh;
 
-void messageCallback(const geometry_msgs::Twist& msg){
+void messageCallback(const geometry_msgs::Twist& msg){ // function takes in message
   if(msg.linear.x > 0.1){
     digitalWrite(13, HIGH);
   }
