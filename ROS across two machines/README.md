@@ -1,6 +1,8 @@
 # ROS across multiple machines
 In order to run ROS across multiple machines, we will have to run one machine as a master and the rest as slaves. To allow ROS to communicate between machines, they must have the same IP addresses in the ROS variable `ROS_MASTER_URI`.
 
+The following assumes you have sourced your `setup.bash` in the devel folder of your catkin workspace, and in `/opt/ros/kinetic/` for each terminal instance. 
+
 ## Set up ROS master computer
 quick tip: `export` creates variables in your instance of the shell
 
