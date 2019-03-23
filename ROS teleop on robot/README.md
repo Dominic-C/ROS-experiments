@@ -11,7 +11,7 @@ The slave device is then run to recieve information on these topics from the mas
 * Batteries for the robot chassis
 
 ## Preparation
-Before starting this tutorial, make sure you uploaded a program to your arduino to receive ROS messages. Simple tutorail can be found [here](https://github.com/Dominic-C/ROS-experiments/tree/master/ROS%20arduino). In our example, we will use `turtlebot_teleop keyboard_teleop.launch` to send messages to our arduino.
+Before starting this tutorial, make sure you uploaded a program to your arduino to receive ROS messages. Simple tutorial can be found [here](https://github.com/Dominic-C/ROS-experiments/tree/master/ROS%20arduino). In our example, we will use `turtlebot_teleop keyboard_teleop.launch` to send messages to our arduino.
 
 Make sure you configure your computers to communicate with each other. A simple tutorial can be found [here](https://github.com/Dominic-C/ROS-experiments/tree/master/ROS%20across%20two%20machines).
 
